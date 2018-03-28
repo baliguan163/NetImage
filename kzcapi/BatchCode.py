@@ -114,9 +114,6 @@ def batchcode_delete(request):
 def GetNowTime():
     return time.strftime("%Y-%m-%d %H:%M:%S",time.localtime(time.time()))
 
-
-
-
 def batchcode_add(request):
     response_data = {}
     if request.method == 'POST':
